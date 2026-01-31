@@ -1,0 +1,24 @@
+# Git attributes for controlling diff visibility
+# Files marked as 'linguist-generated' are hidden by default in GitHub PRs
+
+# Hide Copilot-generated files from PR diffs (if any)
+# Uncomment the patterns below as needed:
+# *.generated.* linguist-generated=true
+# **/generated/** linguist-generated=true
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.eot binary
+*.woff binary
+*.woff2 binary

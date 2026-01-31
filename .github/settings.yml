@@ -1,0 +1,31 @@
+# GitHub repository settings
+# This file is used by the probot/settings app to configure repository settings
+# https://github.com/probot/settings
+
+repository:
+  # General repository settings
+  name: SastaTaxi
+  description: "SastaTaxi is a Flutter-based ride fare comparison application"
+  homepage: ""
+  private: false
+  
+  # Disable features that might expose PR/Copilot activity
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  has_downloads: true
+  
+  # Default branch
+  default_branch: main
+  
+  # Allow merge methods
+  allow_merge_commit: true
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  
+  # Automatically delete head branches after PRs are merged
+  delete_branch_on_merge: true
+  
+  # Enable automated security fixes
+  enable_automated_security_fixes: false
+  enable_vulnerability_alerts: false
