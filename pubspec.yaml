@@ -1,0 +1,45 @@
+name: sasta_taxi
+description: A premium ride comparison app for comparing prices across multiple platforms (Uber, Ola, Rapido, etc.) for metro and non-metro cities in India.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.0
+  
+  # UI/UX
+  google_fonts: ^6.1.0
+  animations: ^2.0.8
+  shimmer: ^3.0.0
+  flutter_animate: ^4.3.0
+  
+  # Utilities
+  intl: ^0.18.1
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.2
+  
+  # Icons
+  font_awesome_flutter: ^10.6.0
+  
+  # Location (for future)
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/
+  #   - assets/
