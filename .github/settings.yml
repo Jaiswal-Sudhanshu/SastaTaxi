@@ -26,6 +26,8 @@ repository:
   # Automatically delete head branches after PRs are merged
   delete_branch_on_merge: true
   
-  # Enable automated security fixes
+  # Disable automated security fixes to reduce PR noise
+  # Note: This hides security alerts but removes important protections
+  # Consider keeping these enabled for better security
   enable_automated_security_fixes: false
   enable_vulnerability_alerts: false
